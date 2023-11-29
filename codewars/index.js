@@ -11,3 +11,16 @@
 //     return false;
 //   }
 // }
+
+//!Noonerize me (7kyu)
+
+// function noonerize(numbers) {
+//   if (!numbers.every((v) => typeof v === 'number')) {
+//     return 'invalid array';
+//   }
+//   let n1 =
+//     (numbers[1].toString().slice(0, 1) + numbers[0].toString().slice(1)) * 1;
+//   let n2 =
+//     (numbers[0].toString().slice(0, 1) + numbers[1].toString().slice(1)) * 1;
+//   return Math.abs(n1 - n2);
+// }
