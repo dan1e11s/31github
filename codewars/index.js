@@ -38,3 +38,18 @@
 //     return 4;
 //   }
 // }
+
+//! Add Length
+
+// function addLength(str) {
+//   const arr = str.split(' ');
+//   const newArr = [];
+//   for (let i of arr) {
+//     i = i + ' ' + i.length;
+//     newArr.push(i);
+//   }
+
+//   return newArr;
+// }
+
+// addLength('apple ban');
