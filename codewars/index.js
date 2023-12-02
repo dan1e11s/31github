@@ -68,3 +68,21 @@
 //     return [name, str];
 //   }
 // }
+
+//! Whose move? (8kyu)
+
+// function whoseMove(lastPlayer, win) {
+//   if (lastPlayer === 'white') {
+//     if (win) {
+//       return 'white';
+//     } else {
+//       return 'black';
+//     }
+//   } else if (lastPlayer === 'black') {
+//     if (win) {
+//       return 'black';
+//     } else {
+//       return 'white';
+//     }
+//   }
+// }
