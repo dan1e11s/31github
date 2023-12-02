@@ -105,3 +105,14 @@
 //     return 'Invalid returnType';
 //   }
 // }
+
+//! Find the Integral (8kyu)
+
+// function integrate(coefficient, exponent) {
+//   const newCoefficient = coefficient / (exponent + 1);
+//   const newExponent = exponent + 1;
+
+//   const result = `${newCoefficient}x^${newExponent}`;
+
+//   return result;
+// }
