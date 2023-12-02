@@ -39,7 +39,7 @@
 //   }
 // }
 
-//! Add Length
+//! Add Length (8kyu)
 
 // function addLength(str) {
 //   const arr = str.split(' ');
@@ -53,3 +53,18 @@
 // }
 
 // addLength('apple ban');
+
+//! Who is going to pay for the wall? (kyu)
+
+// function whoIsPaying(name) {
+//   let str = '';
+//   if (name.length <= 2) {
+//     return [name];
+//   } else {
+//     for (let i = 0; i < 2; i++) {
+//       str += name[i];
+//     }
+
+//     return [name, str];
+//   }
+// }
