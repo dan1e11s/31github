@@ -86,3 +86,22 @@
 //     }
 //   }
 // }
+
+//! Smallest value of an array (7kyu)
+
+// function findSmallest(arr, toReturn) {
+//   if (arr.length === 0) {
+//     return 'Array is empty';
+//   }
+
+//   const minValue = Math.min(...arr);
+//   const minIndex = arr.indexOf(minValue);
+
+//   if (toReturn === 'value') {
+//     return minValue;
+//   } else if (toReturn === 'index') {
+//     return minIndex;
+//   } else {
+//     return 'Invalid returnType';
+//   }
+// }
