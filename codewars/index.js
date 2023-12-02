@@ -116,3 +116,13 @@
 
 //   return result;
 // }
+
+//! Did she say hallo?
+
+// function validateHello(greetings) {
+//   const arr = ['hello', 'ciao', 'salut', 'hallo', 'hola', 'ahoj', 'czesc'];
+
+//   const lowercaseMessage = greetings.toLowerCase();
+
+//   return arr.some((greeting) => lowercaseMessage.includes(greeting));
+// }
