@@ -10,8 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "contentful": "^10.6.13",
+    "framer-motion": "^10.16.12",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-animate-on-scroll": "^2.1.7",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "sass": "^1.69.5",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
