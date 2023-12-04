@@ -166,3 +166,14 @@
 // function also() {
 //   return getName(arguments);
 // }
+
+//! Simple Fun #38: House Of Cats
+
+// function houseOfCats(legs) {
+//   let result = [];
+//   while (legs > 0) {
+//     result.unshift(legs / 2);
+//     legs -= 4;
+//   }
+//   return result[0] === 2 ? [0, ...result] : result;
+// }
