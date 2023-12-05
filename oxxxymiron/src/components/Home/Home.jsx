@@ -1,5 +1,11 @@
+import MainBanner from './MainBanner';
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <main className="main">
+      <MainBanner />
+    </main>
+  );
 };
 
 export default Home;
