@@ -223,3 +223,12 @@
 //   }
 //   return arr1.filter((v) => !arr.includes(v))[0];
 // }
+
+//! Highest and Lowest (7kyu)
+
+// function highAndLow(numbers) {
+//   let arr = numbers.split(' ').sort((a, b) => a - b);
+//   return `${arr[arr.length - 1]} ${arr[0]}`;
+// }
+
+// highAndLow('8 3 -5 42 -1 0 0 -9 4 7 4 -4');
