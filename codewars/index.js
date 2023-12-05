@@ -208,3 +208,18 @@
 //   );
 //   return maxDistance;
 // }
+
+//! Smallest integer (7kyu)
+
+// function smallestInteger(matrix) {
+//   const arr = JSON.stringify(matrix)
+//     .replace(/[\[\]]/g, '')
+//     .split(',')
+//     .map((v) => v * 1)
+//     .sort((a, b) => a - b);
+//   let arr1 = [];
+//   for (let i = 0; i <= arr.length; i++) {
+//     arr1.push(i);
+//   }
+//   return arr1.filter((v) => !arr.includes(v))[0];
+// }
