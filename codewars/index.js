@@ -232,3 +232,26 @@
 // }
 
 // highAndLow('8 3 -5 42 -1 0 0 -9 4 7 4 -4');
+
+//! Find the odd int (6kyu)
+
+// function findOdd(A) {
+//   let obj = {};
+//   let oddKey = 0;
+
+//   A.forEach((element) => {
+//     if (obj[element]) {
+//       obj[element] += 1;
+//     } else {
+//       obj[element] = 1;
+//     }
+//   });
+
+//   Object.entries(obj).forEach((el) => {
+//     const [key, value] = el;
+//     if (value % 2 !== 0) {
+//       oddKey = parseInt(key);
+//     }
+//   });
+//   return oddKey;
+// }
