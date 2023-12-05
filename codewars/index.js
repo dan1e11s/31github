@@ -177,3 +177,34 @@
 //   }
 //   return result[0] === 2 ? [0, ...result] : result;
 // }
+
+//! Best Travel (5kyu)
+
+// function chooseBestSum(t, k, ls) {
+//   function combinations(arr, k) {
+//     if (k === 0) return [[]];
+//     if (arr.length === 0) return [];
+
+//     const head = arr[0];
+//     const tail = arr.slice(1);
+
+//     const withoutHead = combinations(tail, k);
+//     const withHead = combinations(tail, k - 1).map((comb) => [head, ...comb]);
+
+//     return withoutHead.concat(withHead);
+//   }
+
+//   const possibleTrips = combinations(ls, k);
+//   const validTrips = possibleTrips.filter(
+//     (trip) => trip.reduce((sum, distance) => sum + distance, 0) <= t
+//   );
+
+//   if (validTrips.length === 0) return null;
+
+//   const maxDistance = Math.max(
+//     ...validTrips.map((trip) =>
+//       trip.reduce((sum, distance) => sum + distance, 0)
+//     )
+//   );
+//   return maxDistance;
+// }
