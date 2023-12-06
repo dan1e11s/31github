@@ -282,3 +282,15 @@
 
 //   return true;
 // }
+
+//! Triangle area (7kyu)
+
+// function tArea(dots) {
+
+//     const arrOfDots = dots.trim().split('\n');
+//     const base = Math.floor(arrOfDots[arrOfDots.length - 1].length / 2);
+//     const height = arrOfDots.length - 1;
+//     const area = (0.5) * base * height;
+
+//     return area;
+//   }
