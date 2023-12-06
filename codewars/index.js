@@ -268,3 +268,17 @@
 // }
 
 // getMiddle('m');
+
+//! Small enough? - Beginner (7kyu)
+
+// function smallEnough(a, limit) {
+//   for (let i of a) {
+//     if (i <= limit) {
+//       continue;
+//     } else {
+//       return false;
+//     }
+//   }
+
+//   return true;
+// }
