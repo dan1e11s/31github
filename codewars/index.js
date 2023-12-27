@@ -310,3 +310,11 @@
 //     }
 //     return [].concat(...answ.filter(v=>!v.every(v=>v===0)))
 // }
+
+//! Functional Addition (7kyu)
+
+// function add(n) {
+//   return function (x) {
+//     return x + n;
+//   };
+// }
