@@ -318,3 +318,10 @@
 //     return x + n;
 //   };
 // }
+
+//! Generate user links (8kyu)
+
+// function generateLink(user) {
+//   let x = `http://www.codewars.com/users/${encodeURIComponent(user)}`;
+//   return x;
+// }
